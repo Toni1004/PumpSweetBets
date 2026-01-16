@@ -1,0 +1,28 @@
+from py_clob_client.order_builder.constants import BUY
+
+SOL_WATCH_ADDRESS = ""
+SOL_WATCH_PRIVATE_KEY = ""
+
+POLYMARKET_SOL_DEPOSIT = ""
+
+POLY_PRIVATE_KEY = ""
+POLY_FUNDER = ""
+
+TOKEN_ID = ""
+BET_SIDE = BUY
+
+SOL_THRESHOLD = 0.1
+SOL_SEND_PERCENT = 0.70
+USDC_BET_PERCENT = 0.95
+USDC_BRIDGE_THRESHOLD = 3.0
+USDC_RETRY_THRESHOLD = 10.0
+
+SOL_POLL_INTERVAL = 20
+USDC_POLL_INTERVAL = 30
+BRIDGE_TIMEOUT = 600
+SOL_VERIFY_ATTEMPTS = 5
+SOL_VERIFY_DELAY = 5
+
+SOLANA_PUBLIC_RPC = "https://api.mainnet-beta.solana.com"
+SOLANA_HELIUS_RPC = "https://mainnet.helius-rpc.com/?api-key= ** YOUR API KEY **  "
+
